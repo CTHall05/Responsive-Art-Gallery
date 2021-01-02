@@ -1,0 +1,90 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+/* ---------- */
+
+/* Border Box Reset */
+
+* {
+  box-sizing: border-box;
+}
+
+/* html & body reset */
+
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* ------------------ */
+
+#header,
+a {
+  display: grid;
+  color: white;
+  background-color: #45d9ea;
+  width: 100%;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif, monospace;
+  text-decoration: none;
+}
+
+/* Gallery */
+
+.gallery-container {
+  width: 90%;
+  max-width: 1070px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.painting {
+  align-self: center;
+}
+
+/* --------- */
+
+body {
+  background-color: rgb(157, 252, 252);
+}
+
+/* Search Bar */
+
+#searchBar {
+  margin: 20px 0px;
+  text-align: center;
+  width: 100%;
+}
+
+#paintingSearchBar {
+  width: 300px;
+  border-radius: 5px;
+  border-color: #6ea7f2;
+  font-family: "Ubuntu", sans-serif, monospace;
+}
+
+input:focus {
+  outline: none;
+  border-color: rgb(22, 137, 225);
+  border-radius: 5px;
+  font-family: "Ubuntu", sans-serif, monospace;
+}
+
+/* -------------- */
